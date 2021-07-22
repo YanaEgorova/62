@@ -1,0 +1,18 @@
+.bottom__wrapper {
+
+}
+.bottom .sub-title {
+    color: var(--accent-color);
+}
+@media screen and (min-width: 1024px) {
+    .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom .text {
+        margin: 0;
+        margin-left: 4rem;
+        text-align: left;
+    }
+}

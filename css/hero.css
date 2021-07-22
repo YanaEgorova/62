@@ -1,0 +1,36 @@
+.hero__wrapper {
+    position: relative;
+}
+.hero__wrapper::after {
+    background-color: var(--sub-bg-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    content: '';
+    z-index: -1;
+}
+.hero__wrapper::before {
+    background-color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    content: '';
+    z-index: -1;
+}
+.hero {
+    padding: 10rem 0 5rem;
+}
+.hero .title {
+    color: var(--sub-text-color);
+}
+@media screen and (min-width: 1024px)  {
+    .hero {
+         padding: 15rem 0;
+    }
+}
